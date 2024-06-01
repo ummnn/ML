@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['coffee']
+
+roboflow:
+  workspace: ml-fodm7
+  project: coffee-cke41
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ml-fodm7/coffee-cke41/dataset/1
